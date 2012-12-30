@@ -18,7 +18,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_test
+  database: sample_app_development
   pool: 5
   username: sample_app
   password: fartss
@@ -27,7 +27,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_production
+  database: sample_app_development
   pool: 5
   username: sample_app
   password: fartss
